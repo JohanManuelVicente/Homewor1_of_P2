@@ -2,29 +2,31 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 
 namespace Homework1.Classes.SubClasses
 {
-    public class Student : CommunityMember
+    public class ExStudent : CommunityMember
     {
         public required string Career { get; set; }
         public required string UniversityEnrollment { get; set; }
 
-        public Student(int Cedula, string Name, string Apellido, int Age, string? Address, string Rol, string Career, string UniversityEnrollment) : base (Cedula, Name, Apellido, Age, Address, Rol)
-        {   
+        public required DateTime DepartureDate { get; set; }
+
+        public ExStudent(int Cedula, string Name, string Apellido, int Age, string? Address, string Rol, string Career, string UniversityEnrollment) : base(Cedula, Name, Apellido, Age, Address, Rol)
+        {
             this.Career = Career;
             this.UniversityEnrollment = UniversityEnrollment;
         }
         public override void ShowInfo()
         {
             Console.WriteLine($"Nombre: {Name} {Apellido}");
-            Console.WriteLine($"Cedula: {Cedula}, Edad:{Age}, Direccion: {Address}");
+            Console.WriteLine($"Cedula: {Cedula}, Edad: {Age}, Direccion: {Address}");
             Console.WriteLine($"Rol: {Rol}, Carrera: {Career}, ");
         }
 
     }
-    
-    
 }
