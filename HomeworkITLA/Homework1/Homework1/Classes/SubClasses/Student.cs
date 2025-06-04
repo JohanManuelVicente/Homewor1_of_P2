@@ -9,10 +9,10 @@ namespace Homework1.Classes.SubClasses
 {
     public class Student : CommunityMember
     {
-        public required string Career { get; set; }
-        public required string UniversityEnrollment { get; set; }
+        public  string Career { get; set; }
+        public  string UniversityEnrollment { get; set; }
 
-        public Student(int Cedula, string Name, string Apellido, int Age, string? Address, string Rol, string Career, string UniversityEnrollment) : base (Cedula, Name, Apellido, Age, Address, Rol)
+        public Student(long Cedula, string Name, string Apellido, int Age, string? Address, string Rol, string Career, string UniversityEnrollment) : base (Cedula, Name, Apellido, Age, Address, Rol)
         {   
             this.Career = Career;
             this.UniversityEnrollment = UniversityEnrollment;
@@ -21,7 +21,7 @@ namespace Homework1.Classes.SubClasses
         {
             Console.WriteLine($"Nombre: {Name} {Apellido}");
             Console.WriteLine($"Cedula: {Cedula}, Edad:{Age}, Direccion: {Address}");
-            Console.WriteLine($"Rol: {Rol}, Carrera: {Career}, ");
+            Console.WriteLine($"Rol: {Rol}, Carrera: {Career}, Matricula {UniversityEnrollment}");
         }
 
     }

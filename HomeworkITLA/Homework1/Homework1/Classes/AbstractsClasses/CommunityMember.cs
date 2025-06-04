@@ -8,8 +8,8 @@ namespace Homework1.Classes.AbstractsClasses
 {
     public abstract class CommunityMember : Person
     {
-        public required string Rol { get; set; }
-        public CommunityMember(int Cedula, string Name, string Apellido, int Age, string? Address, string Rol) : base(Cedula, Name, Apellido, Age, Address)
+        public  string Rol { get; set; }
+        public CommunityMember(long Cedula, string Name, string Apellido, int Age, string? Address, string Rol) : base(Cedula, Name, Apellido, Age, Address)
         {
             this.Rol = Rol;
         } 
