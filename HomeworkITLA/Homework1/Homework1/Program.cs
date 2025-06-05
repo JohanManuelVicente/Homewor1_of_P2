@@ -7,9 +7,6 @@ using Homework1.Classes.SubClasses;
 
 var Student1 = new Student(4022548844, 
     "Johan", "Lopez", 22, "San Jose", "Estudiante", "Ingenieria", "2024-1260"
-    
-    
-    
     );
 
 
