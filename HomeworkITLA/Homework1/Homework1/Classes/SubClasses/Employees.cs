@@ -29,7 +29,7 @@ namespace Homework1.Classes.SubClasses
             Console.WriteLine($"Datos del empleado {Name}:");
             Console.WriteLine();
             Console.WriteLine($"Nombre: {Name} {Apellido}");
-               Console.WriteLine($"Rol: {Rol}, Del departamento {Department}, como {position}, con salario de {salary}");
+            Console.WriteLine($"Rol: {Rol}, Del departamento {Department}, como {position}, con salario de {salary} pesos");
         }
     }
 }
