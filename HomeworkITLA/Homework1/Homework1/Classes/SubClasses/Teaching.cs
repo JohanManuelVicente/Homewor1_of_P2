@@ -30,7 +30,7 @@ namespace Homework1.Classes.SubClasses
             Console.WriteLine($"Datos del docente {Name}:");
             Console.WriteLine();
             Console.WriteLine($"Nombre: {Name} {Apellido}");
-            Console.WriteLine($"Materia que imparte: {Subjects}, nivel academico: {AcademicLevel}, y tiene {HoursOfClasesWeek} horas de clase semanal");
+            Console.WriteLine($"Materia que imparte: {Subjects}, nivel academico: {AcademicLevel}, y tiene {HoursOfClasesWeek} horas de clase a la semana");
         }
     }
     

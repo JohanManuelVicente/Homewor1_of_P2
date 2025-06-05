@@ -2,13 +2,9 @@
 using Homework1.Classes.SubClasses;
 
 
-
-
-
 var Student1 = new Student(4022548844, 
     "Johan", "Lopez", 22, "San Jose", "Estudiante", "Ingenieria", "2024-1260"
     );
-
 
 
 var exStudent2 = new ExStudent(
@@ -52,6 +48,8 @@ var Teaching1 = new Teaching(
     14,
     "Programacion 1"
     );
+
+
 
 Student1.ShowInfo();
 
