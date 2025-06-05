@@ -1,5 +1,6 @@
 ﻿using Homework1.Classes.AbstractsClasses;
 using Homework1.Classes.SubClasses;
+using System.ComponentModel.DataAnnotations;
 
 
 var Student1 = new Student(4022548844, 
@@ -49,22 +50,39 @@ var Teaching1 = new Teaching(
     "Programacion 1"
     );
 
+var Administrative1 = new Administrative(
+    "Centro de Software",
+    "8AM - 4PM",
+    "SI",
+    04022165454,
+    "Eugenio",
+    "De Jesus",
+    30,
+    "Jacobo",
+    "Administrativo",
+    60000,
+    "Docente",
+    "Desarrollo de Software"
 
+    );
 
-Student1.ShowInfo();
+//Student1.ShowInfo();
+
+//Console.WriteLine();
+
+//exStudent2.ShowInfo();
+
+//Console.WriteLine();
+
+//Employee1.ShowInfo();
+
+//Console.WriteLine();
+
+//Teaching1.ShowInfo();
 
 Console.WriteLine();
 
-exStudent2.ShowInfo();
-
-Console.WriteLine();
-
-Employee1.ShowInfo();
-
-Console.WriteLine();
-
-Teaching1.ShowInfo();
-
+Administrative1.ShowInfo();
 
 
 
