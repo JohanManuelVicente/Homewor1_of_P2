@@ -24,6 +24,8 @@ namespace Homework1.Classes.SubClasses
         }
         public override void ShowInfo()
         {
+            Console.WriteLine($"Datos del ex estudiante {Name}:");
+            Console.WriteLine();
             Console.WriteLine($"Nombre: {Name} {Apellido}");
             Console.WriteLine($"Cedula: {Cedula}, Edad: {Age}, Direccion: {Address}");
             Console.WriteLine($"Rol: {Rol}, Carrera: {Career}, ");

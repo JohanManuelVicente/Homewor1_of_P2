@@ -24,6 +24,18 @@ var exStudent2 = new ExStudent(
 );
 
 
+var Employee1 = new Employees(
+
+    4022165454,
+    "Carlos",
+    "Tavares",
+    30,
+    "Jacobo",
+    "Empleado",
+    30000,
+    "Cajero",
+    "Servicio al cliente"
+    );
 
 
 Student1.ShowInfo();
@@ -31,6 +43,11 @@ Student1.ShowInfo();
 Console.WriteLine();
 
 exStudent2.ShowInfo();
+
+Console.WriteLine();
+
+
+Employee1.ShowInfo();
 
 
 
