@@ -50,6 +50,25 @@ var Teaching1 = new Teaching(
     "Programacion 1"
     );
 
+
+var Teacher1 = new Teacher(
+    4022165454,
+    "Carlos",
+    "Tavares",
+    30,
+    "Jacobo",
+    "Empleado",
+    30000,
+    "Docente",
+    "Desarrollo de Software",
+    "Master",
+    14,
+    "Programacion 1",
+    "Tiempo completo",
+    "Excelencia de software"
+
+    );
+
 var Administrative1 = new Administrative(
     "Centro de Software",
     "8AM - 4PM",
@@ -80,9 +99,13 @@ var Administrative1 = new Administrative(
 
 //Teaching1.ShowInfo();
 
-Console.WriteLine();
+//Console.WriteLine();
 
-Administrative1.ShowInfo();
+//Administrative1.ShowInfo();
+
+//Console.WriteLine();
+
+//Teacher1.ShowInfo();
 
 
 

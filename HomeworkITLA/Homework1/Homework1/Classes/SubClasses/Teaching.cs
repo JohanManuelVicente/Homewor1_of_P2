@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Homework1.Classes.SubClasses
 {
-    internal class Teaching : Employees
+    public class Teaching : Employees
     {
         public string Subjects { get; set; }
 
